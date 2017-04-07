@@ -17,7 +17,7 @@ nav .icon-img {
   margin-bottom: 5px;
   border-radius: 50%;
   border: 1px solid black;
-
+  vertical-align: middle;
 }
 
 nav ul {
@@ -28,7 +28,6 @@ nav ul {
 
 nav li {
 	display: inline-block;
-	vertical-align: middle;
 }
 
 nav li::after {
@@ -38,4 +37,40 @@ nav li::after {
 
 nav a:hover {
 	color: black;
+}
+
+body {
+  background: url(../images/outerspace_landscape.jpeg) no-repeat;
+  background-size: cover;
+}
+
+main {
+	padding-top: 90px;
+	min-width: 1000px;
+}
+
+.box {
+	margin-top: 150px;
+	width: 600px;
+	height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+	border: 10px dotted green;
+	position: relative;
+}
+
+img.spacecat {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left:-100px;
+	top: -100px;
+}
+
+img.spacedog {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	right: -100px;
+	bottom: -100px;
 }
